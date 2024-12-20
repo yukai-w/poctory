@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script
+    src="chrome-extension://dlcobpjiigpikoobohmabehhmhfoodbb/inpage.js"
+    id="argent-x-extension"
+    data-extension-id="dlcobpjiigpikoobohmabehhmhfoodbb"
+  ></script>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/logo512.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Get instant homework help with StudyPal AI - the ultimate AI homework helper."
+    />
+    <meta
+      name="keywords"
+      content="homework helper, study helper, artificial intelligence, homework solver, homework solutions, 
+  homework answers, study tool, studypal, studypal ai"
+    />
+    <link rel="apple-touch-icon" href="/logo512.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>StudyPal AI | Ultimate Homework Helper</title>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-ELRML7YBN2"
+    ></script>
+    <script>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      (window.dataLayer = window.dataLayer || []),
+        gtag("js", new Date()),
+        gtag("config", "G-ELRML7YBN2");
+    </script>
+    <script defer="defer" src="/static/js/main.62521287.js"></script>
+    <link href="/static/css/main.1098df23.css" rel="stylesheet" />
+    <style data-id="immersive-translate-input-injected-css">
+      .immersive-translate-input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 2147483647;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .immersive-translate-attach-loading::after {
+        content: " ";
+
+        --loading-color: #f78fb6;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        display: block;
+        margin: 12px auto;
+        position: relative;
+        color: white;
+        left: -100px;
+        box-sizing: border-box;
+        animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-2000%, -50%);
+        z-index: 100;
+      }
+
+      .immersive-translate-loading-spinner {
+        vertical-align: middle !important;
+        width: 10px !important;
+        height: 10px !important;
+        display: inline-block !important;
+        margin: 0 4px !important;
+        border: 2px rgba(221, 244, 255, 0.6) solid !important;
+        border-top: 2px rgba(0, 0, 0, 0.375) solid !important;
+        border-left: 2px rgba(0, 0, 0, 0.375) solid !important;
+        border-radius: 50% !important;
+        padding: 0 !important;
+        -webkit-animation: immersive-translate-loading-animation 0.6s infinite
+          linear !important;
+        animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+      }
+
+      @-webkit-keyframes immersive-translate-loading-animation {
+        from {
+          -webkit-transform: rotate(0deg);
+        }
+
+        to {
+          -webkit-transform: rotate(359deg);
+        }
+      }
+
+      @keyframes immersive-translate-loading-animation {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(359deg);
+        }
+      }
+
+      .immersive-translate-input-loading {
+        --loading-color: #f78fb6;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        display: block;
+        margin: 12px auto;
+        position: relative;
+        color: white;
+        left: -100px;
+        box-sizing: border-box;
+        animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+      }
+
+      @keyframes immersiveTranslateShadowRolling {
+        0% {
+          box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0),
+            0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+        }
+
+        12% {
+          box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0),
+            0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+        }
+
+        25% {
+          box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color),
+            0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+        }
+
+        36% {
+          box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color),
+            100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
+        }
+
+        50% {
+          box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color),
+            110px 0 var(--loading-color), 100px 0 var(--loading-color);
+        }
+
+        62% {
+          box-shadow: 200px 0 rgba(255, 255, 255, 0),
+            130px 0 var(--loading-color), 120px 0 var(--loading-color),
+            110px 0 var(--loading-color);
+        }
+
+        75% {
+          box-shadow: 200px 0 rgba(255, 255, 255, 0),
+            200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color),
+            120px 0 var(--loading-color);
+        }
+
+        87% {
+          box-shadow: 200px 0 rgba(255, 255, 255, 0),
+            200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+            130px 0 var(--loading-color);
+        }
+
+        100% {
+          box-shadow: 200px 0 rgba(255, 255, 255, 0),
+            200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+            200px 0 rgba(255, 255, 255, 0);
+        }
+      }
+
+      .immersive-translate-toast {
+        display: flex;
+        position: fixed;
+        z-index: 2147483647;
+        left: 0;
+        right: 0;
+        top: 1%;
+        width: fit-content;
+        padding: 12px 20px;
+        margin: auto;
+        overflow: auto;
+        background: #fef6f9;
+        box-shadow: 0px 4px 10px 0px rgba(0, 10, 30, 0.06);
+        font-size: 15px;
+        border-radius: 8px;
+        color: #333;
+      }
+
+      .immersive-translate-toast-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .immersive-translate-toast-hidden {
+        margin: 0 20px 0 72px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .immersive-translate-toast-close {
+        color: #666666;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 10px;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .immersive-translate-toast {
+          top: 0;
+          padding: 12px 0px 0 10px;
+        }
+        .immersive-translate-toast-content {
+          flex-direction: column;
+          text-align: center;
+        }
+        .immersive-translate-toast-hidden {
+          margin: 10px auto;
+        }
+      }
+
+      .immersive-translate-modal {
+        display: none;
+        position: fixed;
+        z-index: 2147483647;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        font-size: 15px;
+      }
+
+      .immersive-translate-modal-content {
+        background-color: #fefefe;
+        margin: 10% auto;
+        padding: 40px 24px 24px;
+        border: 1px solid #888;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 270px;
+        font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+          "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        position: relative;
+      }
+
+      @media screen and (max-width: 768px) {
+        .immersive-translate-modal-content {
+          margin: 50% auto !important;
+        }
+      }
+
+      .immersive-translate-modal .immersive-translate-modal-content-in-input {
+        max-width: 500px;
+      }
+      .immersive-translate-modal-content-in-input
+        .immersive-translate-modal-body {
+        text-align: left;
+        max-height: unset;
+      }
+
+      .immersive-translate-modal-title {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: #333333;
+      }
+
+      .immersive-translate-modal-body {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        word-break: break-all;
+        margin-top: 24px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .immersive-translate-modal-body {
+          max-height: 250px;
+          overflow-y: auto;
+        }
+      }
+
+      .immersive-translate-close {
+        color: #666666;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .immersive-translate-close:hover,
+      .immersive-translate-close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .immersive-translate-modal-footer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 24px;
+      }
+
+      .immersive-translate-btn {
+        width: fit-content;
+        color: #fff;
+        background-color: #ea4c89;
+        border: none;
+        font-size: 16px;
+        margin: 0 8px;
+        padding: 9px 30px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .immersive-translate-btn:hover {
+        background-color: #f082ac;
+      }
+      .immersive-translate-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+      .immersive-translate-btn:disabled:hover {
+        background-color: #ea4c89;
+      }
+
+      .immersive-translate-cancel-btn {
+        /* gray color */
+        background-color: rgb(89, 107, 120);
+      }
+
+      .immersive-translate-cancel-btn:hover {
+        background-color: hsl(205, 20%, 32%);
+      }
+
+      .immersive-translate-action-btn {
+        background-color: transparent;
+        color: #ea4c89;
+        border: 1px solid #ea4c89;
+      }
+
+      .immersive-translate-btn svg {
+        margin-right: 5px;
+      }
+
+      .immersive-translate-link {
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-drag: none;
+        text-decoration: none;
+        color: #007bff;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .immersive-translate-primary-link {
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-drag: none;
+        text-decoration: none;
+        color: #ea4c89;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .immersive-translate-modal input[type="radio"] {
+        margin: 0 6px;
+        cursor: pointer;
+      }
+
+      .immersive-translate-modal label {
+        cursor: pointer;
+      }
+
+      .immersive-translate-close-action {
+        position: absolute;
+        top: 2px;
+        right: 0px;
+        cursor: pointer;
+      }
+
+      .imt-image-status {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border-radius: 16px !important;
+      }
+      .imt-image-status img,
+      .imt-image-status svg,
+      .imt-img-loading {
+        width: 28px !important;
+        height: 28px !important;
+        margin: 0 0 8px 0 !important;
+        min-height: 28px !important;
+        min-width: 28px !important;
+        position: relative !important;
+      }
+      .imt-img-loading {
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAPHRSTlMABBMIDyQXHwyBfFdDMSw+OjXCb+5RG51IvV/k0rOqlGRM6KKMhdvNyZBz9MaupmxpWyj437iYd/yJVNZeuUC7AAACt0lEQVRIx53T2XKiUBCA4QYOiyCbiAsuuGBcYtxiYtT3f6/pbqoYHVFO5r+iivpo6DpAWYpqeoFfr9f90DsYAuRSWkFnPO50OgR9PwiCUFcl2GEcx+N/YBh6pvKaefHlUgZd1zVe0NbYcQjGBfzrPE8Xz8aF+71D8gG6DHFPpc4a7xFiCDuhaWgKgGIJQ3d5IMGDrpS4S5KgpIm+en9f6PlAhKby4JwEIxlYJV9h5k5nee9GoxHJ2IDSNB0dwdad1NAxDJ/uXDHYmebdk4PdbkS58CIVHdYSUHTYYRWOJblWSyu2lmy3KNFVJNBhxcuGW4YBVCbYGRZwIooipHsNqjM4FbgOQqQqSKQQU9V8xmi1QlgHqQQ6DDBvRUVCDirs+EzGDGOQTCATgtYTnbCVLgsVgRE0T1QE0qHCFAht2z6dLvJQs3Lo2FQoDxWNUiBhaP4eRgwNkI+dAjVOA/kUrIDwf3CG8NfNOE0eiFotSuo+rBiq8tD9oY4Qzc6YJw99hl1wzpQvD7ef2M8QgnOGJfJw+EltQc+oX2yn907QB22WZcvlUpd143dqQu+8pCJZuGE4xCuPXJqqcs5sNpsI93Rmzym1k4Npk+oD1SH3/a3LOK/JpUBpWfqNySxWzCfNCUITuDG5dtuphrUJ1myeIE9bIsPiKrfqTai5WZxbhtNphYx6GEIHihyGFTI69lje/rxajdh0s0msZ0zYxyPLhYCb1CyHm9Qsd2H37Y3lugVwL9kNh8Ot8cha6fUNQ8nuXi5z9/ExsAO4zQrb/ev1yrCB7lGyQzgYDGuxq1toDN/JGvN+HyWNHKB7zEoK+PX11e12G431erGYzwmytAWU56fkMHY5JJnDRR2eZji3AwtIcrEV8Cojat/BdQ7XOwGV1e1hDjGGjXbdArm8uJZtCH5MbcctVX8A1WpqumJHwckAAAAASUVORK5CYII=");
+        background-size: 28px 28px;
+        animation: image-loading-rotate 1s linear infinite !important;
+      }
+
+      .imt-image-status span {
+        color: var(--bg-2, #fff) !important;
+        font-size: 14px !important;
+        line-height: 14px !important;
+        font-weight: 500 !important;
+        font-family: "PingFang SC", Arial, sans-serif !important;
+      }
+
+      @keyframes image-loading-rotate {
+        from {
+          transform: rotate(360deg);
+        }
+        to {
+          transform: rotate(0deg);
+        }
+      }
+      .twitter {
+            width: 54px;
+            height: 54px;
+            position: absolute;
+            cursor: pointer;
+            top: 22px;
+            right: 20px;
+          }
+          .pump {
+            width: 54px;
+            height: 54px;
+            position: absolute;
+            cursor: pointer;
+            top: 22px;
+            right: 92px;
+          }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div>
+      <img onclick="window.open('https://pump.fun')" class="pump" src="./pump-santa.webp" />
+      <img onclick="window.open('https://x.com/studypal_sol')" class="twitter" src="./twitter.svg" />
+    </div>
+    <div id="root">
+      <div class="page-container">
+        <div class="content-wrap">
+          <div>
+            <header
+              style="
+                display: flex;
+                align-items: center;
+                background-color: rgb(255, 255, 255);
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+                padding: 20px;
+              "
+            >
+              <div>
+                <a href="/"
+                  ><img
+                    src="logo512.png"
+                    alt="Company Logo"
+                    style="max-height: 50px; margin: 0px"
+                /></a>
+              </div>
+              <div
+                style="
+                  font-size: 24px;
+                  font-weight: bold;
+                  margin: 0px 0px 0px 10px;
+                  text-decoration: none;
+                  color: rgb(0, 0, 0);
+                "
+              >
+                <a href="/" style="text-decoration: none; color: rgb(0, 0, 0)"
+                  >StudyPal AI</a
+                >
+              </div>
+            </header>
+            <div
+              style="
+                margin: 0px auto;
+                max-width: 1000px;
+                padding-left: 20px;
+                padding-right: 20px;
+              "
+            >
+              <h1 style="text-align: left">Terms of Use</h1>
+              <p style="text-align: left">
+                Welcome to our website. If you continue to browse and use this
+                website, https://studypalai.site, you are agreeing to comply
+                with and be bound by the following terms and conditions of use,
+                which together with our privacy policy govern our relationship
+                with you in relation to this website. If you disagree with any
+                part of these terms and conditions, please do not use our
+                website.
+              </p>
+              <h2 style="text-align: left">1. Introduction</h2>
+              <p style="text-align: left">
+                The term 'StudyPal AI', 'us' or 'we' refers to the owner of the
+                website who can be reached at https://www.studypalai.site. The
+                term 'you' refers to the user or viewer of our website.
+              </p>
+              <h2 style="text-align: left">2. Use of Website</h2>
+              <p style="text-align: left">
+                The content of the pages of this website is for your general
+                information and use only. It is subject to change without
+                notice.
+              </p>
+              <h2 style="text-align: left">3. Intellectual Property</h2>
+              <p style="text-align: left">
+                This website contains material which is owned by or licensed to
+                us. This material includes, but is not limited to, the design,
+                layout, look, appearance and graphics. Reproduction is
+                prohibited other than in accordance with the copyright notice,
+                which forms part of these terms and conditions.
+              </p>
+              <h2 style="text-align: left">4. Links to Other Websites</h2>
+              <p style="text-align: left">
+                Our website may contain links to other websites of interest.
+                However, once you have used these links to leave our site, you
+                should note that we do not have any control over that other
+                website. Therefore, we cannot be responsible for the protection
+                and privacy of any information which you provide whilst visiting
+                such sites and such sites are not governed by this privacy
+                statement. You should exercise caution and look at the privacy
+                statement applicable to the website in question.
+              </p>
+              <h2 style="text-align: left">5. Disclaimer</h2>
+              <p style="text-align: left">
+                The information contained in this website is for general
+                information purposes only. The information is provided by us and
+                while we endeavour to keep the information up to date and
+                correct, we make no representations or warranties of any kind,
+                express or implied, about the completeness, accuracy,
+                reliability, suitability or availability with respect to the
+                website or the information, products, services, or related
+                graphics contained on the website for any purpose. Any reliance
+                you place on such information is therefore strictly at your own
+                risk. Our website, https://studypalai.site, should not be
+                used for any form of academic dishonesty. StudyPal AI is not
+                associated or endorsed by any college or university.
+              </p>
+              <h2 style="text-align: left">6. Governing Law</h2>
+              <p style="text-align: left">
+                Your use of this website and any dispute arising out of such use
+                of the website is subject to the laws of the United States.
+              </p>
+              <h2 style="text-align: left">
+                7. Changes to These Terms and Conditions
+              </h2>
+              <p style="text-align: left">
+                We reserve the right to modify these terms and conditions at any
+                time without notice. The updated version of these terms and
+                conditions will be effective as of the date of posting on the
+                website.
+              </p>
+              <div class="terms-spacer"></div>
+            </div>
+            <div
+              style="
+                background-color: rgb(55, 198, 172);
+                padding: 30px;
+                text-align: center;
+                font-size: 16px;
+                position: relative;
+                bottom: 0px;
+              "
+            >
+              <div style="display: flex; justify-content: center">
+                <a
+                  href="/terms"
+                  style="
+                    color: rgb(51, 51, 51);
+                    text-decoration: none;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                  "
+                  >Terms of Use</a
+                ><span
+                  style="
+                    display: inline-block;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                  "
+                  >|</span
+                ><a
+                  href="/privacy"
+                  style="
+                    color: rgb(51, 51, 51);
+                    text-decoration: none;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                  "
+                  >Privacy Policy</a
+                >
+              </div>
+              <div style="margin-top: 20px">
+                © 2024 StudyPal AI. All Rights Reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <div id="immersive-translate-popup" style="all: initial"></div>
+</html>
